@@ -7,21 +7,11 @@ import { CreateCarDto, UpdateCarDto } from '../dto';
 export class CarsService {
 
     private cars: Car[] = [
-        {
-            id: v4(),
-            brand: 'BMW',
-            model: 'X5'
-        },
-        {
-            id: v4(),
-            brand: 'Mercedes',
-            model: 'C200'
-        },
-        {
-            id: v4(),
-            brand: 'Ferrari',
-            model: 'F40'
-        }
+        // {
+        //     id: v4(),
+        //     brand: 'BMW',
+        //     model: 'X5'
+        // },
     ];
 
     findAll() {
